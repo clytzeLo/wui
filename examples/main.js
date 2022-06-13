@@ -1,10 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import xui from '../pageages'
+import tssUi from '../packages'
 
 Vue.config.productionTip = false
-Vue.use(xui)
+Vue.use(tssUi)
 
 new Vue({
   render: h => h(App),

@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <x-button>123</x-button>
+    <tss-button>button</tss-button>
   </div>
 </template>
 

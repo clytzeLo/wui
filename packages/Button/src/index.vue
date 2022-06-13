@@ -1,12 +1,12 @@
 <template>
-  <div class="x-button">
+  <div class="tss-button">
     <slot></slot>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'x-button',
+  name: 'tss-button',
   props: {
     type: String
   }
@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style scoped>
-  .x-button {
+  .tss-button {
       display: inline-block;
       padding: 3px 6px;
       background: #000;
