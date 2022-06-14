@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <tss-button>button</tss-button>
+    <tss-input></tss-input>
   </div>
 </template>
 
