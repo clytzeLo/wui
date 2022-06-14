@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <tss-button>button</tss-button>
+    <tss-button>button233</tss-button>
     <tss-input></tss-input>
   </div>
 </template>

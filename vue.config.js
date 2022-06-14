@@ -1,4 +1,5 @@
 module.exports = {
+  
   pages: {
     index: {
       entry: 'examples/main.js',
@@ -14,5 +15,5 @@ module.exports = {
         .end()
       .use('babel')
         .loader('babel-loader')
-  }
+  },
 }
