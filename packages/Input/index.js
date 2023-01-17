@@ -1,7 +1,7 @@
-import TssInput from './src'
+import Input from './src'
 
-TssInput.install = function(Vue) {
-  Vue.component(TssInput.name, TssInput)
+Input.install = function(Vue) {
+  Vue.component(Input.name, Input)
 }
 
-export default TssInput;
+export default Input;

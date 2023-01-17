@@ -1,0 +1,59 @@
+// @import '../../../styles/var.scss';
+
+// Custom your theme
+.q-anchor {
+  position: relative;
+  border-left: 1px solid #ccc;
+
+  &-ink {
+    position: absolute;
+    left: -#{1px};
+    top: 0;
+    width: 1px;
+    height: 32px;
+    background: #ccc;
+    transition: top 300ms, height 300ms;
+    &.visible::after {
+      display: block;
+      width: 8px;
+      height: 8px;
+      position: absolute;
+      content: "";
+      top:50%;
+      background: white;
+      border-radius: 50%;
+      transform: translate(-50%,-50%);
+      border: 1px solid #2E6BE6;
+    }
+  }
+
+  &-link {
+    .q-anchor-link{
+      padding-left: 16px;
+    }
+  }
+
+  &-link__title {
+    padding-left: 16px;
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    height: 32px;
+    line-height: 32px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    transition: color 300ms;
+    width: 100%;
+    max-width: 104px;
+
+    &.is-active {
+      color: red;
+      // background: #E6EEFF;
+    }
+
+    &:hover {
+      color: blue;
+    }
+  }
+}
